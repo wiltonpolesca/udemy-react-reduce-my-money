@@ -32,3 +32,6 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 // serviceWorker.unregister();
+
+
+// TODO: Criar os snipts de acordo com as estruturas básicas para o desenvolimento

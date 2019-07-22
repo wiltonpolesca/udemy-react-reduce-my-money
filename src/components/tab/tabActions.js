@@ -6,11 +6,11 @@ export function selectTab(tabId) {
 }
 
 export function showTabs(...tabIds) {
-    const tabToShow = {};
-    tabIds.forEach(e => tabToShow[e] = true);
+    const tabsToShow = {};
+    tabIds.forEach(e => tabsToShow[e] = true);
     return {
         type: 'TAB_SHOWING',
-        payload: tabToShow
+        payload: tabsToShow
     }
 
 }
